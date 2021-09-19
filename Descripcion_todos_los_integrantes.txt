@@ -1,37 +1,35 @@
-Descripción del proyecto:
+DescripciÃ³n del proyecto:
 
-Planteamiento de la situación problema a desarrollar 
-Se propone analizar, diseñar y construir una aplicación software que permita controlar las ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento.
-Para llevar a cabo este proyecto deberás tener en cuenta una serie de indicaciones, como verás a continuación. 
-
-
-Para poder desarrollar el proyecto que se te planteó, la aplicación web debe contar con los siguientes módulos:  
+El proyecto del ciclo 3 consiste en el anÃ¡lisis, diseÃ±o y construcciÃ³n de una aplicaciÃ³n que permita controlar las ventas fÃ­sicas y virtuales de una empresa de manufactura, haciendo el correspondiente seguimiento.
+Este proyecto se desarrollarÃ¡ en un equipo de trabajo de 5 integrantes, siguiendo la metodologÃ­a scrum y utilizando Github como plataforma para el trabajo colaborativo.
 
 
-- Módulo administrador de ventas. Permite ingresar o registrar los pedidos realizados por cada uno de los clientes. Deberá tener un identificador único de venta, almacenar el valor total de la venta y la descripción detallada de la misma y tener una fecha inicial y una fecha futura de pago. Además, deberá contar con un encargado de gestionar dicha venta (responsable).
+Para poder desarrollar el proyecto que se te planteÃ³, la aplicaciÃ³n web debe contar con los siguientes mÃ³dulos:  
 
-- Módulo para registrar el estado de la venta. Permite establecer los diferentes estados de la venta a lo largo del ciclo de vida de la línea de producción (creación, embalaje, despacho, ruta, ubicación, recepción).  
 
-- Gestión de vendedores. Permite ingresar la información básica de los vendedores que participan en un negocio de ventas. La información a registrar sería el identificador único del vendedor, el nombre, la especialidad, el número de celular y la fecha de ingreso.
+- MÃ³dulo administrador de ventas. Permite ingresar o registrar los pedidos realizados por cada uno de los clientes. DeberÃ¡ tener un identificador Ãºnico de venta, almacenar el valor total de la venta y la descripciÃ³n detallada de la misma y tener una fecha inicial y una fecha futura de pago. AdemÃ¡s, deberÃ¡ contar con un encargado de gestionar dicha venta (responsable).
 
-- Gestión de ingreso al sistema de información. El sistema contendrá una pantalla de ingreso con login y password.
+- MÃ³dulo para registrar el estado de la venta. Permite establecer los diferentes estados de la venta a lo largo del ciclo de vida de la lÃ­nea de producciÃ³n (creaciÃ³n, embalaje, despacho, ruta, ubicaciÃ³n, recepciÃ³n).  
 
-Este módulo hará la integración de los demás módulos del sistema para garantizar que los roles de los usuarios se ajusten a las distintas opciones de cada menú o formulario. Se contempla la identificación y el desarrollo de los casos de uso relacionados con la seguridad, así como el análisis de requisitos y el diseño del módulo.
+- GestiÃ³n de vendedores. Permite ingresar la informaciÃ³n bÃ¡sica de los vendedores que participan en un negocio de ventas. La informaciÃ³n a registrar serÃ­a el identificador Ãºnico del vendedor, el nombre, la especialidad, el nÃºmero de celular y la fecha de ingreso.
 
-- Gestión de usuarios y roles. Deberá contener un identificador único del usuario, el nombre y el rol en el sistema de información (vendedor, administrador, ejecutivo, operario, director, gerente comercial) con el fin de restringir/otorgar accesos al sistema de información.
+- GestiÃ³n de ingreso al sistema de informaciÃ³n. El sistema contendrÃ¡ una pantalla de ingreso con login y password.
 
+Este mÃ³dulo harÃ¡ la integraciÃ³n de los demÃ¡s mÃ³dulos del sistema para garantizar que los roles de los usuarios se ajusten a las distintas opciones de cada menÃº o formulario. Se contempla la identificaciÃ³n y el desarrollo de los casos de uso relacionados con la seguridad, asÃ­ como el anÃ¡lisis de requisitos y el diseÃ±o del mÃ³dulo.
+
+- GestiÃ³n de usuarios y roles. DeberÃ¡ contener un identificador Ãºnico del usuario, el nombre y el rol en el sistema de informaciÃ³n (vendedor, administrador, ejecutivo, operario, director, gerente comercial) con el fin de restringir/otorgar accesos al sistema de informaciÃ³n.
 
 
 Lista de integrantes del grupo 9.
 
-1004755501 | Victoria Valencia Vélez | victoriavalenciave@gmail.com 
+1004755501 | Victoria Valencia VÃ©lez | victoriavalenciave@gmail.com 
  lorem ipsum ....
 
 1118537386 | Eduar Francisco Burgos | efburgosr@unal.edu.co
- lorem ipsum ....
+Soy Estudiante de IngenierÃ­a de Sistemas en la UNAL, actualmente trabajo en un proyecto de emprendiemiento de desarrollo web y marketing digital de bajo costo enfocado principalamente a brindar servicios a personas naturales y pequeÃ±as empresas.
 
-1019122648 | Nicolás Ticora Garzon | nticorag@gmail.com
- lorem ipsum ....
+1019122648 | Nicolas Ticora Garzon | nticorag@gmail.com
+ Hola, soy NicolÃƒÂ¡s Ticora y estoy en Mision TIC 2022. TomarÃƒÂ© el rol de Administrador de BD, ademÃƒÂ¡s del de desarrollador en conjunto con el equipo.
 
 1020780797 | Cristian Javier Parra | cjparraq@gmail.com
  lorem ipsum ....
