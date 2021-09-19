@@ -1,16 +1,18 @@
-Descripci�n del proyecto: lorem ipsum
+Descripci�n del proyecto: lorem ipsum
 
+El proyecto del ciclo 3 consiste en el análisis, diseño y construcción de una aplicación que permita controlar las ventas físicas y virtuales de una empresa de manufactura, haciendo el correspondiente seguimiento.
+Este proyecto se desarrollará en un equipo de trabajo de 5 integrantes, siguiendo la metodología scrum y utilizando Github como plataforma para el trabajo colaborativo.
 
 Lista de integrantes del grupo 9.
 
-1004755501 | Victoria Valencia V�lez | victoriavalenciave@gmail.com 
+1004755501 | Victoria Valencia V�lez | victoriavalenciave@gmail.com 
  lorem ipsum ....
 
 1118537386 | Eduar Francisco Burgos | efburgosr@unal.edu.co
  lorem ipsum ....
 
-1019122648 | Nicol�s Ticora Garzon | nticorag@gmail.com
- lorem ipsum ....
+1019122648 | Nicolas Ticora Garzon | nticorag@gmail.com
+ Hola, soy Nicolás Ticora y estoy en Mision TIC 2022. Tomaré el rol de Administrador de BD, además del de desarrollador en conjunto con el equipo.
 
 1020780797 | Cristian Javier Parra | cjparraq@gmail.com
  lorem ipsum ....
