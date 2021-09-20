@@ -32,7 +32,7 @@ Soy Estudiante de Ingeniería de Sistemas en la UNAL, actualmente trabajo en un 
  Hola, soy Nicolás Ticora y estoy en Mision TIC 2022. Tomaré el rol de Administrador de BD, además del de desarrollador en conjunto con el equipo.
 
 1020780797 | Cristian Javier Parra | cjparraq@gmail.com
- lorem ipsum ....
+ Hola, soy Cristian Parra y estoy en Mision TIC 2022. Tomaré el rol de producto Owner, además del de desarrollador en conjunto con el equipo. 
 
 16836610 | Jhon Jairo Ortiz | jjortizx@gmail.com
 Hola, soy Jhon Jairo Ortiz y estoy en Mision Tic 2022, tomare el rol de desarrollador
