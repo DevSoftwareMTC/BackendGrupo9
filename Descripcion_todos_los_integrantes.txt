@@ -26,7 +26,7 @@ Lista de integrantes del grupo 9.
 Buenas tardes, soy estudiante de ingeniería biológica de la UNAL, soy la Analista del equipo y desarrolladora del proyecto.
 
 1118537386 | Eduar Francisco Burgos | efburgosr@unal.edu.co
-Soy Estudiante de Ingeniería de Sistemas en la UNAL, actualmente trabajo en un proyecto de emprendiemiento de desarrollo web y marketing digital de bajo costo enfocado principalamente a brindar servicios a personas naturales y pequeñas empresas.
+Soy Eduar Burgos y en este proyecto tengo el rol de Desarrolador y Scrum Master.
 
 1019122648 | Nicolas Ticora Garzon | nticorag@gmail.com
  Hola, soy Nicolás Ticora y estoy en Mision TIC 2022. Tomaré el rol de Administrador de BD, además del de desarrollador en conjunto con el equipo.
