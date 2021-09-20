@@ -23,6 +23,7 @@ Este módulo hará la integración de los demás módulos del sistema para garan
 Lista de integrantes del grupo 9.
 
 1004755501 | Victoria Valencia Vélez | victoriavalenciave@gmail.com 
+
 Buenas tardes, soy estudiante de ingeniería biológica de la UNAL, soy la Analista del equipo y desarrolladora del proyecto.
 
 1118537386 | Eduar Francisco Burgos | efburgosr@unal.edu.co
