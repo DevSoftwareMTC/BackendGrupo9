@@ -1,0 +1,19 @@
+{
+  "name": "backendgroup9",
+  "version": "1.0.0",
+  "description": "Proyecto tienda Mintic grupo 9",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSoftwareMTC/BackendGrupo9.git"
+  },
+  "author": "Grupo 9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevSoftwareMTC/BackendGrupo9/issues"
+  },
+  "homepage": "https://github.com/DevSoftwareMTC/BackendGrupo9#readme"
+}
