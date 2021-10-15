@@ -1,7 +1,17 @@
 const express = require('express');
 const app = express();
-var cors = require('cors')
-//const { sequelize } = require('./models/index'); 
+const { sequelize } = require('./models/index'); 
+
+// Configurar cabeceras y cors
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
+    res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
+    next();
+});
+
+
 
 // Setting
 const PORT = process.env.PORT || 5000;
@@ -10,16 +20,15 @@ const PORT = process.env.PORT || 5000;
 // Para poder rellenar el req.body
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cors())
-// Rutas
-//app.use(require('./routes'));
 
+// Rutas
+app.use(require('./routes'));
 
 // Arrancamos el servidor
 app.listen(PORT, function () {
     console.log(`La app ha arrancado en http://localhost:${PORT}`);
 
-  /*  sequelize.sync({ force: false }).then(() => {
+    sequelize.sync({ force: false }).then(() => {
         console.log("Se ha establecido la conexión");
-    })*/
+    })
 });
