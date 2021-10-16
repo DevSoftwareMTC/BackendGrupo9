@@ -43,6 +43,11 @@ router.delete('/:id', ProductController.delete);
 
 //CATEGORIAS
 
+router.post('/category', categoryController.create);
+router.get('/category/con', categoryController.sowAll);
+router.get('/category/:id', categoryController.showByIdCat);
+router.patch('/category/up/:id', categoryController.updateCategory);
+
 router.get('/getPrendas', ProductController.showAllPrendas);
 
 module.exports = router;
