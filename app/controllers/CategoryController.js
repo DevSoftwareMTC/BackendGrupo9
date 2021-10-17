@@ -19,7 +19,7 @@ module.exports = {
  },
 //mostrar categorias
 // INDEX /api/productos
-sowAll(req, res) {
+showAll(req, res) {
     console.log('entro a revisar categorias');
     Category.findAll().then(category => {
         res.json(category);

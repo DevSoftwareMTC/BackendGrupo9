@@ -3,7 +3,7 @@ const router = express.Router();
 
 // Importar controladores
 const ProductController = require('./controllers/ProductController');
-
+const categoryController = require('./controllers/CategoryController')
 // Products
 router.post('/', ProductController.create);
 router.get('/getByName/:name', ProductController.showByKeyWord);
@@ -44,7 +44,7 @@ router.delete('/:id', ProductController.delete);
 //CATEGORIAS
 
 router.post('/category', categoryController.create);
-router.get('/category/con', categoryController.sowAll);
+router.get('/category/read', categoryController.showAll);
 router.get('/category/:id', categoryController.showByIdCat);
 router.patch('/category/up/:id', categoryController.updateCategory);
 
