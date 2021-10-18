@@ -29,6 +29,6 @@ app.listen(PORT, function () {
     console.log(`La app ha arrancado en http://localhost:${PORT}`);
 
     sequelize.sync({ force: false }).then(() => {
-        console.log("Se ha establecido la conexión");
+        console.log("Se ha establecido la conexión en el puerto: ",PORT);
     })
 });

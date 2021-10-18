@@ -4,6 +4,9 @@ const router = express.Router();
 // Importar controladores
 const ProductController = require('./controllers/ProductController');
 const categoryController = require('./controllers/CategoryController')
+
+
+
 // Products
 router.post('/', ProductController.create);
 router.get('/getByName/:name', ProductController.showByKeyWord);
@@ -48,7 +51,7 @@ router.get('/category/read', categoryController.showAll);
 router.get('/category/:id', categoryController.showByIdCat);
 router.patch('/category/up/:id', categoryController.updateCategory);
 
-router.get('/getPrendas', ProductController.showAllPrendas);
+
 
 module.exports = router;
 
