@@ -8,12 +8,12 @@ const categoryController = require('./controllers/CategoryController')
 
 
 // Products
-router.post('/', ProductController.create);
-router.get('/getByName/:name', ProductController.showByKeyWord);
-router.get('/', ProductController.showAll);
-router.get('/:id', ProductController.showById);
-router.patch('/:id', ProductController.update);
-router.delete('/:id', ProductController.delete);
+router.post('/product/', ProductController.create);
+router.get('/product/getByName/:name', ProductController.showByKeyWord);
+router.get('/product/', ProductController.showAll);
+router.get('/product/:id', ProductController.showById);
+router.patch('/product/:id', ProductController.update);
+router.delete('/product/:id', ProductController.delete);
 
 //LOGIN
 

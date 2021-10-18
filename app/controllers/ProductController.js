@@ -1,5 +1,4 @@
 const {Product} = require('../models/index');
-//const {tipoPrenda} = require('../models/index');
 const {Category} = require('../models/Category');
 const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
@@ -77,11 +76,11 @@ module.exports = {
         })
     },
 
-    //MOSTRAR PRENDAS /api/getPrendas
+    //MOSTRAR PRENDAS /api/getCategories
 
-    showAllPrendas(req, res) {
+    showAllCategories(req, res) {
         console.log('entro');
-        tipoPrenda.findAll({attributes: ['tipo']})
+        Category.findAll({attributes: ['name']})
         .then(prendas => {
             res.json(prendas);
         })
