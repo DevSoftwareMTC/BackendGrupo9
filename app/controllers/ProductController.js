@@ -44,7 +44,7 @@ module.exports = {
 
     // READ /api/posts/:id
     showById(req, res) {
-        Product.findByPk(req.params.id).then(productos => {
+        Product.findByPk(req.params.id , {include: 'category'}) .then(productos => {
             res.json(productos);
         })
     },
@@ -53,7 +53,7 @@ module.exports = {
     update(req, res) {
 
         Product.update({
-            name: req.body.name
+            nombreProducto: req.body.nombreProducto
         }, {
             where: {
                 id: req.params.id
