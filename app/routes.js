@@ -49,7 +49,7 @@ router.delete('/product/:id', ProductController.delete);
 router.post('/category', categoryController.create);
 router.get('/category/read', categoryController.showAll);
 router.get('/category/:id', categoryController.showByIdCat);
-router.patch('/category/up/:id', categoryController.updateCategory);
+router.patch('/category/up', categoryController.updateCategory);
 
 
 

@@ -48,7 +48,7 @@ showAll(req, res) {
     //UPDATE DEL NOMBRE
     // // UPDATE /api/posts/:id
     updateCategory(req, res) {
-    // console.log(req);
+      console.log("datos que llegaron desde front de categorias",req);
      Category.update({
             name: req.body.name
         }, {
