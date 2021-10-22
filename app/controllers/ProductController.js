@@ -53,7 +53,12 @@ module.exports = {
     update(req, res) {
 
         Product.update({
-            nombreProducto: req.body.nombreProducto
+            nombreProducto: req.body.nombreProducto,
+            talla: req.body.talla,
+            manufactura: req.body.manufactura,
+            descripcionProducto: req.body.descripcionProducto,
+            precio: req.body.precio,
+            stock: req.body.stock
         }, {
             where: {
                 id: req.params.id
