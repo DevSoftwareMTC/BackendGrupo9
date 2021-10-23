@@ -14,8 +14,8 @@ const updateSale = async ( sale, dni_ ) => {
     } 
 }
 
-const deleteSale = ( sale ) => {
-    return Sale.destroy( sale );
+const deleteSale = async ( dni ) => {
+    return Sale.destroy({ where:{ dni }});
 }
 
 const getSale = async ( dni_ ) => {
@@ -28,4 +28,14 @@ const getSale = async ( dni_ ) => {
     } 
 }
 
-module.exports = { createSale, updateSale, deleteSale, getSale };
+const getAllSale = async () => {
+    const findAll = await Sale.findAll();
+
+    if(findAll.length > 0){
+        return findAll
+    }else{
+        throw new Error("Sale not found");
+    } 
+}
+
+module.exports = { createSale, updateSale, deleteSale, getSale, getAllSale };

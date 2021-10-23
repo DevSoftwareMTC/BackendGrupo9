@@ -6,11 +6,15 @@ const router = express.Router();
 router
     .route('/ventas')
     .post(saleController.createSale)
-    .delete(saleController.deleteSale);
 
 router
     .route('/ventas/:dni')    
     .get(saleController.getSale)
-    .put(saleController.updateSale);
+    .put(saleController.updateSale)
+    .delete(saleController.deleteSale);
+
+router
+    .route('/allventas')
+    .get(saleController.getAllSale);
 
 module.exports = router;

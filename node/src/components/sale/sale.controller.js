@@ -16,6 +16,7 @@ const createSale = ( req, res ) => {
 
 const deleteSale = ( req, res ) => {
     const { params } = req;
+    console.log(params)
     if( 'dni' in params && !isNaN( params.dni )){
         saleServices.deleteSale(params.dni).then(sale => {
             res.status(200).json( sale );
@@ -36,6 +37,7 @@ const updateSale = ( req, res ) => {
             res.status(400).json({error: error.message})
         })
     } else {
+        console.log(body)
         res.status(400).json({error: error.message})
     }
 }
@@ -54,4 +56,12 @@ const getSale = ( req, res ) => {
     }
 }
 
-module.exports = { createSale, deleteSale, updateSale, getSale };
+const getAllSale = ( req, res ) => {
+    saleServices.getAllSale().then(sales =>{
+        res.status(200).json(sales);
+    }).catch(error => {
+        res.status(404).json({error: error.message})
+    });
+}
+
+module.exports = { createSale, deleteSale, updateSale, getSale, getAllSale };
