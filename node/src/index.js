@@ -1,24 +1,19 @@
 const express = require('express');
-const app = express();
 const sequelize = require('./database/db');
-const Sale = require('./database/models/Sale')
-const port = 5000;
+const saleRoutes = require('./components/sale/sale.routes');
 
-app.post('/ventas', async (req, res) => {
-    Sale.create({
-        dni: 1020780797,
-        name: "Cristian",
-        email: "cjparra@gmail.com",
-        tel:3005066429,
-        address: "Carrera 18A 186-62",
-        city: "Bogota"
-    }).then(sale => {
-        res.json(sale);
-    })
-});
+const app = express();
+const router = express.Router();
+const bp = require('body-parser')
 
-app.listen(port, () => {
-    console.log(`el backend esta corriendo por el puerto ${port}`);
+
+app.use(bp.json())
+app.use(bp.urlencoded({ extended: true }))
+router.use(saleRoutes);
+app.use(router);
+
+app.listen(5000, () => {
+    console.log(`el backend esta corriendo por el puerto ${5000}`);
     sequelize.sync().then(() => {
         console.log('Nos hemos conectado con la bd ');
     }).catch((error) => {
