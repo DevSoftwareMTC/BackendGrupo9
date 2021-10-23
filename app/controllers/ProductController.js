@@ -58,7 +58,8 @@ module.exports = {
             manufactura: req.body.manufactura,
             descripcionProducto: req.body.descripcionProducto,
             precio: req.body.precio,
-            stock: req.body.stock
+            stock: req.body.stock,
+            category_id: req.body.category_id
         }, {
             where: {
                 id: req.params.id
